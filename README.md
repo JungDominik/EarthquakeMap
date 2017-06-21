@@ -3,6 +3,9 @@ https://www.coursera.org/specializations/java-object-oriented
 
 It automatically generates an interactive map of the earthquakes which happened during the past week, parsing an RSS feed by the United States Geological Survey. 
 
+![Alt text](/data/screenshot.jpg?raw=true "Screenshot")
+
+
 The project has been assembled over a time of 10 weeks as a means of teaching the basic concepts of object-oriented programming and the java language such as
 -Java Syntax
 -Java data structures
