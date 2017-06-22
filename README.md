@@ -1,7 +1,12 @@
 This is a class project as part of the UC San Diego MOOC "Object-oriented Programming in Java", offered through Coursera
-https://www.coursera.org/specializations/java-object-oriented
+( https://www.coursera.org/specializations/java-object-oriented )
 
-It automatically generates an interactive map of the earthquakes which happened during the past week, parsing an RSS feed by the United States Geological Survey. 
+It automatically generates an interactive map of the earthquakes which happened during the past week and their proximity to major cities, via the following steps
+- parsing an RSS feed by the US Geological Survey 
+- processing the parsed data into UnfoldingMaps marker objects with properties such as GPS location and earthquake magnitude
+- differentiating between ocean quakes and land quakes, matching land quakes into their respective countries
+- displaying the marker objects with different shapes and colors acoording to their properties using a zoomable Java Applet map (drawing on Google Maps services)
+- processing and reacting to user input via a listener method (i.e. clicking on earthquake markers displays possibly affected cities in their vicinity)
 
 ![Alt text](/data/screenshot.jpg?raw=true "Screenshot")
 
